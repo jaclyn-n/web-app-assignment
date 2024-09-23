@@ -15,14 +15,15 @@ nav{
 .nav-container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
     
 }
 .nav-after {
     height: 4px;
     width: 100%;
-    background-color: lightgreen;
+    background: linear-gradient( to right,  #eeff2d, #2ac275);
     
 }
 .nav-links {
@@ -34,7 +35,8 @@ nav{
 .nav-text {
     color: white;
     font-family: Josefin Sans, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 /* music logo */
@@ -47,7 +49,7 @@ nav{
     justify-content: space-between;
     padding: 10px 10px;
     margin: 0;
-    gap: 5px;
+    gap: 2px;
     align-items: end;
 }
 
@@ -93,7 +95,17 @@ nav{
     height: 100vh;
 
 }
-
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+    font-family: Josefin Sans, sans-serif;
+    color: white;
+    font-size: 50px;
+    top: 50%;
+}
 /* song of the week */
 
 
