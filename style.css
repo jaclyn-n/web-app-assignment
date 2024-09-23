@@ -1,0 +1,116 @@
+*{
+        margin: 0;
+        text-decoration: none;
+}
+/* nav-bar styles go here */
+nav{
+    width: 100%;
+    background: linear-gradient(to right, #2457d7, #3b125d);
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.nav-after {
+    height: 4px;
+    width: 100%;
+    background-color: lightgreen;
+    
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-text {
+    color: white;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 16px;
+}
+
+/* music logo */
+.music-bar-logo {
+    display: inline-block;
+    font-size: 0;
+}
+.music-bar-logo ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0;
+    gap: 5px;
+    align-items: end;
+}
+
+.music-bar-logo1 {
+    background-color: #EEFF2D;
+    height: 15px;
+    width: 6px;
+}
+.music-bar-logo2 {
+    background-color: #2AC275;
+    height: 10px;
+    width: 6px;
+}
+.music-bar-logo3 {
+    background-color:#E830FE;
+    height: 20px;
+    width: 6px;
+    
+}
+.music-bar-logo4 {
+    background-color: #2AC275;
+    height: 10px;
+    width: 6px;
+}
+.music-bar-logo5 {
+    background-color: #EEFF2D;
+    height: 15px;
+    width: 6px;
+}
+
+.nav-end {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+
+}
+
+/* hero styles go here */
+.hero {
+    background-image: url(./images/index.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+/* song of the week */
+
+
+
+/* event section */
+
+
+/* get your music, suscribe today...still in doubt section */
+
+
+
+/* albums */
+
+
+
+/* news section */
+
+
+
+/* footer */
