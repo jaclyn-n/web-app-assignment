@@ -8,14 +8,14 @@ nav{
     background: linear-gradient(to right, #2457d7, #3b125d);
     height: 7rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
    
 }
 .nav-container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 10px;
     
@@ -40,17 +40,19 @@ nav{
 }
 
 /* music logo */
-.music-bar-logo {
+/* .music-bar-logo {
     display: inline-block;
     font-size: 0;
-}
+    
+} */
 .music-bar-logo ul {
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     margin: 0;
     gap: 2px;
     align-items: end;
+    line-height: 22px;
 }
 
 .music-bar-logo1 {
@@ -79,6 +81,9 @@ nav{
     height: 15px;
     width: 6px;
 }
+.music-bar h3 {
+    font-size: 15px;
+}
 
 .nav-end {
     display: flex;
@@ -105,6 +110,18 @@ nav{
     color: white;
     font-size: 50px;
     top: 50%;
+}
+
+
+.your-text {
+    
+}
+
+.music-text {
+    color: #EEFF2D;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 110px;
+    line-height: 132px;
 }
 /* song of the week */
 
