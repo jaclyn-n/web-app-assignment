@@ -139,9 +139,13 @@ nav {
   line-height: 132px;
 }
 
-.hero_slider_nav:hover {
+.button:hover {
 }
 
+
+.button{
+  border-radius: 22;
+}
 .hero-after {
   height: 4px;
   width: 100%;
@@ -173,12 +177,3 @@ nav {
   color: white;
 }
 
-/* event section */
-
-/* get your music, suscribe today...still in doubt section */
-
-/* albums */
-
-/* news section */
-
-/* footer */
