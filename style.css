@@ -29,12 +29,35 @@ nav {
   align-items: center;
 }
 
+.nav-text:hover {
+  color: #84DE54;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+
 .nav-text {
   color: white;
   font-family: Josefin Sans, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
 }
+
+.login {
+  color: white;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.login:hover {
+  color: #84DE54;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
 
 /* music logo */
 /* .music-bar-logo {

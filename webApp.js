@@ -14,6 +14,55 @@
 // console.table(data.artists);
 // })
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const sampleData = {
   hits: [
     {
