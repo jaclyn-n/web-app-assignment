@@ -1,81 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Move</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="webApp.js" defer ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/favicon.ico">
+    <script src="webApp.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-            <div class="nav-container">
-                <div class="flex align-middle items-center font-serif text-5xl text-white"> 
-                <div class="music-bar-logo">
-                    <ul class="flex justify-around">
-                        <li class="music-bar-logo1"></li>
-                        <li class="music-bar-logo2"></li>
-                        <li class="music-bar-logo3"></li>
-                        <li class="music-bar-logo4"></li>
-                        <li class="music-bar-logo5"></li>
-                    </ul>
-            </div>
-            <span>Move</span>
-           </div>
-                
-               <div class="nav-links">
-                <a href="#" class="nav-text">Home</a>
-                <a href="#" class="nav-text">About</a>
-                <a href="#" class="nav-text">Download Music</a>
-                <a href="#" class="nav-text">Contact</a> 
-               </div>
-               <div class="text-white">
-                <ul class="flex">
-                    <li>
-                        <a href="#">Login</a>/
-                    </li>
-                    <li>
-                        <a href="#">Register</a>
-                    </li>
-                </ul>
-               </div>
-            </div>
+      <div class="nav-container">
+        <div
+          class="flex align-middle items-center font-serif text-5xl text-white"
+        >
+          <div class="music-bar-logo">
+            <ul class="flex justify-around">
+              <li class="music-bar-logo1"></li>
+              <li class="music-bar-logo2"></li>
+              <li class="music-bar-logo3"></li>
+              <li class="music-bar-logo4"></li>
+              <li class="music-bar-logo5"></li>
+            </ul>
+          </div>
+          <span>Move</span>
+        </div>
+
+        <div class="nav-links">
+          <a href="#" class="nav-text">Home</a>
+          <a href="#" class="nav-text">About</a>
+          <a href="#" class="nav-text">Artist</a>
+          <!-- <a href="#" class="nav-text">Contact</a> -->
+        </div>
+        <div>
+          <ul class="flex text-white ">
+            <li><a href="#">Login</a>/</li>
+            <li>
+              <a href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="nav-after"></div>
     <section class="hero">
-           <div class="pt-40">
+      <div class="pt-40">
+        <div>
+          <div class="hero-text">
+            <div class="flex">
+              <div>
+                <span class="your-text"> YOUR</span>
+                <span class="music-text"> MUSIC</span>
+              </div>
+            </div>
             <div>
-                 <div class="hero-text">
-                     <div class="flex ">
-                        <div>
-                            <span class="your-text"> YOUR</span> <span class='music-text'> MUSIC</span>
-                        </div>
-                     </div>
-                     <div>
-                         <form action=""></form>
-                         <label for="Genre">Select Genre</label>
-                         <select name="Genre" id="">
-                             <option value="Pop">Pop</option>
-                             <option value="Rock">Rock</option>
-                             <option value="Hip Hop">Hip Hop</option>
-                             <option value="R&B">R&B</option>
-                             <option value="Classical">Classical</option>
-                         </select>
-                     </div>
-                </div>
-             </div>
-           </div>
-         </section>
+              <form action=""></form>
+              <label for="Genre">Select Genre</label>
+              <select name="Genre" id="">
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Hip Hop">Hip Hop</option>
+                <option value="R&B">R&B</option>
+                <option value="Classical">Classical</option>
+              </select>
+            </div>
+          </div>
         </div>
-    <section>song of the week goes here</section>
-    <section> tour dates go here</section>
-    <section>download now</section>
+      </div>
+    </section>
+    <div class="hero-after"></div>
+
+    <section>
+      <div class="flex justify-around w-[80%]">
+        <div><img src="./images/app.jpg" alt="2" /></div>
+        <div>
+          <div class="align-middle">
+            <h3>Get your music rightt</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            nisi.
+          </p>
+          </div>
+          
+           <button> download</button>
+        </div>
+      </div>
+    </section>
+    <section class="artist-container">
+      <div>
+        <div class="pt-40">
+          <div class="text-5xl text-white text-center font-medium p-20px">
+            <h3>Artist</h3>
+          </div>
+          <div class="form-bar form-container w-3/5 mx-auto py-10 rounded-full">
+            <form
+              id="submit-form"
+              action="#"
+              class="w-full flex gap-6 justify-center"
+            >
+              <input
+                type="text"
+                placeholder="Artist Name"
+                class="p-4 bg-[#8181BD] rounded-full"
+                id="artist-name"
+              />
+              <!-- <input
+                type="text"
+                placeholder="Search"
+                class="p-4 bg-[#8181BD] rounded-full"
+              /> -->
+              <button
+                type="submit"
+                class="bg-[#57C957] px-20 rounded-2xl hover:bg-gradient-to-r from-purple-500 to-amber-500 mtpx-"
+              >
+                <span>Search</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="results-container"></div>
+    </section>
     <section>featured albums</section>
     <section>news</section>
     <section>suscribe to the community</section>
     <section>footer</section>
-
-    
-</body>
+  </body>
 </html>
