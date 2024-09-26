@@ -14,7 +14,6 @@
 // console.table(data.artists);
 // })
 
-
 const sampleData = {
   hits: [
     {
@@ -934,7 +933,7 @@ const displayHitSongs = (songs) => {
 
     console.log(songCard);
 
-    resultsContainer.appendChild(songCard);
+    Container.appendChild(songCard);
   });
 };
 
