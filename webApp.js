@@ -933,7 +933,7 @@ const displayHitSongs = (songs) => {
 
     console.log(songCard);
 
-    Container.appendChild(songCard);
+    resultsContainer.appendChild(songCard);
   });
 };
 
